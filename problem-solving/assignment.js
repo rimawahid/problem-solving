@@ -7,7 +7,7 @@ function kilometerToMeter(kilometer){
         var convertMeter = kilometer * 1000;
         meter = convertMeter;
     }else{
-        console.log("unvalied")
+        console.log("invalidate")
     }
     return meter;
 }
@@ -24,7 +24,7 @@ function budgetCalculator(watch, phone, laptop){
         var laptopPrice = laptop * 500;
         total = watchPrice + phonePrice + laptopPrice
     }else{
-        console.log("unvalied")
+        console.log("invalidate")
     }return total
 }
 var result2 = budgetCalculator(10,8,2);
